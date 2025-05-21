@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="largura">largura
+        <input type="text" name="largura" id="largura">
+    </label>
+
+    <label for="comprimento">comprimento
+        <input type="text" name="comprimento" id="comprimento">
+    </label>
+
+    <button type="button" onclick="calculaRetangulo()">Acionar função</button>
+    <script>
+        function calculaRetangulo() {
+            let larg = document.getElementById("largura").value
+            let comp = document.getElementById("comprimento").value
+            var area = (larg*comp)
+            alert("Área: " + area)
+        }
+    </script>
+</body>
+</html>
