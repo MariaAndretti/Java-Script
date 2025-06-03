@@ -1,6 +1,3 @@
-var numA = Number(prompt("Digite o primeiro valor: "))
-var numB = Number(prompt("Digite o segund valor: "))
-
-soma = numA + numB
-if (soma > 10)
-    alert(soma)
+let altura = Number(prompt("Informe a sua altura"))
+let genero = confirm("Seu genero é masculino?")
+alert((genero?22:21)*altura**2)
