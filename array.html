@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="buscarPorPosicao">buscar PoPosicao</button>
+    <button onclick="tamanhoArray">Tamanho Array</button>
+    <button onclick="AdicionarFinal">Adicionar no Final</button>
+    <button onclick="varrer()">Varrer</button>
+    <div id="elementosdoarray"></div>
+
+    <div id="Class">
+
+    </div>
+    <script>
+        const Nomes = ["Maria","Isa","Pablo"]
+
+        console.log(Nomes)
+
+        function buscarPorPosicao() {
+            posicao = prompt("Escolha o elemento do Array")
+            alert(Nomes[posicao])
+        }
+
+        function tamanhoArray() {
+            alert("Quantidade de elementos do Arrey" + Nomes.length)
+        }
+
+        function adicionaaofinal() { //guarda um novo nome na variavel
+         Novonome = prompt("Digite um nome: ")
+         //Push adiciona elemento ao final do array
+         //cidade.push(Novonome)
+         Nomes[Nomes.length] = novoNome 
+
+         console.log(Nomes)
+
+        }
+
+        function removerfinal() {
+            //remove 
+
+        }
+
+        function varrer () {
+            elementohtml = document.getElementById("elementosdoarray")
+            var estruturaHTML = ""
+            for (novoNome of Nomes) {
+                
+              estruturaHTML += "<p>" + "nomedoarray" + "</p><br>"
+                
+            }
+
+            elementohtml.innerHTML= estruturaHTML
+        }
+    </script>
+</body>
+</html>
