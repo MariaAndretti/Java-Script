@@ -4,19 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="arrayprof.js"></script>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <script>
-        let numL = 1
-        soma = 0
-
-        while (numL > 0) {
-
-            numl = Number(prompt("Digite um número: "))
-            soma += numL
-        }
-          alert(soma/3)
-
-    </script>
+    <button onclick="buscarPorPosicao()">Buscar por Posição</button>
+    <button onclick="tamanhoArray()">Tamanho do Array</button>
+    <button onclick="adicionarFinal()">Adicionar no Final</button>
+    <button onclick="varrer()">Varrer</button>
+    <div id="elementosdoarray"></div>
 </body>
+
 </html>
