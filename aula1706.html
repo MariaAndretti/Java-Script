@@ -5,15 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="UniQuiz.css">
-    s
 </head>
+
 <body>
-  <div id="Diviniciar">
-    <button id="Botaoiniciar" class="main-btn" onclick="Iniciarjogo">Iniciar</button>
-  </div>
+  <div id="diviniciar">
+
+    <button id="botaoiniciar" class="main-btn" onclick="iniciarjogo()">Iniciar</button>
+  
+    </div>
 
   <div id="areajogo" class="tela-container">
-    <button>Próxima pergunta</button>
+    <div id="areaperguntas" class="opcoesRespostas"></div>
+
+    <button class="botaoProximo" onclick="proximapergunta()">Próxima pergunta</button>
+
   </div>
+
+  <script src="aula.js"></script>
+
 </body>
 </html>
