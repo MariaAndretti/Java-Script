@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+            background-color: rgb(5, 5, 77);
+        }
+
+        
+    </style>
+</head>
+<body>
+    <script>
+
+        var somaPares = 0
+        var somaImpar = 0
+        var soma = 0
+
+        for(let x = 1 ; x <= 10; x++) {
+            soma = soma + x
+
+            if (x % 2 == 0) {
+                somaPares = somaPares + x
+            }
+            else if (x % 2 == 1) {
+                somaImpar = somaImpar + x
+
+            }
+            }
+
+            alert(soma)
+            alert(somaPares)
+            alert(somaImpar)
+
+    
+    </script>
+</body>
+</html>

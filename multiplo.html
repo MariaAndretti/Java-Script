@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+    var soma = 0
+    var escolhe = Number(prompt("De qual multiplo você quer a soma?: "))
+    var inicio = Number(prompt("Por qual multiplo você quer começar? "))
+    var final = Number(prompt("Até que número você quer que vá? "))
+
+      for(let x = inicio; x <= final; x++) {
+        if(x % escolhe == 0) {
+
+            soma = soma + x }
+
+     }
+      alert("Resulta: " + soma)
+
+
+    </script>
+</body>
+</html>
