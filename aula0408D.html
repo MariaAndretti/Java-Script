@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        var n = Number(prompt("Informe a quantidade de números a serem fatoriados: ")) 
+
+        var cont = n
+
+        var valor
+
+        var r
+  
+
+        while(cont >0 )
+        
+        { 
+
+            valor = Number(prompt("Informe um valor inteiro para ser fatoriado: "))
+            
+            r = 1
+
+            for(let num = valor ; num >=1;num--) {
+
+                r = r * num
+
+           }
+
+           alert("O fatorial de " + valor + " é " + r )
+
+           cont = cont - 1
+
+
+        
+        }
+    </script>
+</body>
+</html>
